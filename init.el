@@ -172,6 +172,15 @@
 (use-package nasm-mode
   :ensure t)
 
+(use-package zig-mode
+  :ensure t)
+
+(use-package nim-mode
+  :ensure t)
+
+(use-package haskell-mode
+  :ensure t)
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -185,10 +194,7 @@
  '(global-tab-line-mode nil)
  '(global-wakatime-mode t)
  '(menu-bar-mode nil)
- '(package-selected-packages
-   '(ample-theme company consult dashboard doom-modeline flycheck lsp-ui
-				 nasm-mode orderless tree-sitter-langs use-package
-				 vertico))
+ '(package-selected-packages nil)
  '(recentf-mode t)
  '(scroll-bar-mode nil)
  '(tab-width 4)
